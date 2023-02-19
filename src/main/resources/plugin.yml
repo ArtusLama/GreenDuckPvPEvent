@@ -1,0 +1,19 @@
+name: GreenduckEvent
+version: '${project.version}'
+main: de.artus.greenduckevent.GreenduckEvent
+api-version: 1.19
+authors: [ _Artus_ ]
+description: A plugin for the GreenDuck Event
+commands:
+  startevent:
+    description: starts the event
+  stopevent:
+    description: stops the event
+  setuploot:
+    description: refills the loot chests
+  go:
+    description: starts the event finally
+  warp:
+    description: warps all players into a world
+  spawn:
+    description: teleports u to the spawn
